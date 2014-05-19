@@ -1,0 +1,35 @@
+if &compatible
+  set nocompatible
+end
+set encoding=utf8
+
+filetype off
+set rtp+=~/.vim/bundle/vundle/
+call vundle#rc()
+
+Bundle 'gmarik/vundle'
+
+Bundle 'tpope/vim-fugitive'
+Bundle 'tpope/vim-rvm'
+Bundle 'tpope/vim-rails'
+Bundle 'tpope/vim-bundler'
+Bundle 'tpope/vim-surround'
+Bundle 'tpope/vim-endwise'
+Bundle 'tpope/vim-commentary'
+
+Bundle 'vim-ruby/vim-ruby'
+Bundle 'mattn/emmet-vim'
+Bundle 'nathanaelkane/vim-indent-guides'
+Bundle 'cakebaker/scss-syntax.vim'
+Bundle 'scrooloose/nerdtree'
+Bundle 'slim-template/vim-slim.git'
+Bundle 'itchyny/lightline.vim'
+Bundle 'kin/ctrlp.vim'
+Bundle 'cawcaw/vim-auto-save'
+Bundle 'mustache/vim-mustache-handlebars'
+Bundle 'Lokaltog/vim-easymotion'
+Bundle 'Blackrush/vim-gocode'
+Bundle 'kchmck/vim-coffee-script'
+
+filetype on
+
