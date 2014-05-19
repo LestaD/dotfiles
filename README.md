@@ -4,8 +4,8 @@ configuration of my work environment.
 
 for install this, in you HOME dir:
 ``` shell
-ithub.com/cawcaw/dotfiles
-ditfiles/install
+git clone github.com/cawcaw/dotfiles
+dotfiles/install
 ```
 
 start VIM and:
