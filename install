@@ -2,4 +2,5 @@
 
 ln -s ~/dotfiles/vimrc ~/.vimrc
 ln -s ~/dotfiles/zshrc ~/.zshrc
+cp ~/dotfiles/colors/* ~/.vim/colors/
 

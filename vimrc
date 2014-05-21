@@ -68,7 +68,7 @@ nnoremap <C-h> <C-w>h
 nnoremap <C-l> <C-w>l
 nnoremap <Space> <C-d>
 nnoremap <S-Space> <C-u>
-inoremap <C-e> <C-y>,
+imap <C-e> <C-y>,
 
 au BufNewFile,BufRead *.gradle set filetype=groovy
 
