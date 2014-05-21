@@ -4,7 +4,7 @@ configuration of my work environment.
 
 for install this, in you HOME dir:
 ``` shell
-git clone github.com/cawcaw/dotfiles
+git clone git://github.com/cawcaw/dotfiles
 dotfiles/install
 ```
 
