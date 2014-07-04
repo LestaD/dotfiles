@@ -71,6 +71,5 @@ export PATH=".git/safe/../../bin:$PATH"
 PATH="/Applications/Postgres.app/Contents/Versions/9.3/bin:$PATH"
 PATH="/Applications/NetBeans/glassfish-4.0/glassfish/bin:$PATH"
 PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
+PATH=$PATH:~/.scripts
 export DOCKER_HOST=tcp://localhost:4243
-export JRUBY_OPTS="-Xcompile.invokedynamic=false -J-XX:+TieredCompilation -J-XX:TieredStopAtLevel=1 -J-noverify -Xcompile.mode=OFF"
-

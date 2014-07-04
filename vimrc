@@ -25,13 +25,11 @@ set scrolloff=8
 set sidescrolloff=15
 set sidescroll=1
 
-set tw=80
-
 if has("gui_running")
   colorscheme halflife2
   set bs=2
   set ruler
-  set gfn=Menlo:h16
+  set gfn=Menlo:h14
   set shell=/bin/bash
 endif
 

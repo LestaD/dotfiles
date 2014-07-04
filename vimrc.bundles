@@ -30,7 +30,7 @@ Bundle 'mustache/vim-mustache-handlebars'
 Bundle 'Lokaltog/vim-easymotion'
 Bundle 'Blackrush/vim-gocode'
 Bundle 'kchmck/vim-coffee-script'
-Bundle 'ap/vim-css-color'
+Bundle 'skammer/vim-css-color'
 
 filetype on
 
